@@ -1,0 +1,105 @@
+/*
+ * This CSS file is used to extend the origin website template.
+ */
+
+.qa-container{
+	
+}
+
+.qa-list{
+	display: grid;
+	gap: 4em;
+}
+
+.qa-team{
+	font-family: "Montserrat", "sans-serif";
+	font-size: 2rem;
+	font-weight: 500;
+	color: #000000;
+	margin: 0.4em 0;
+}
+
+.qa-content{
+	font-family: "Noto Serif TC", "Playfair Display", "Times New Roman", Times, serif;
+	font-size: 1.25em;
+	font-weight: 600;
+	color: #000000;
+	line-height: 1.5em;
+}
+
+.qa-content p{
+	text-justify: inter-word;
+}
+
+.qa-box-question{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	width: fit-content;
+	text-align: left;
+	margin: 1.5em 0;
+}
+
+.qa-box-question .qa-box-content{
+	background-color: #CAE6B2;
+	border-radius: 20em;
+	padding: 1em 1.2em;
+}
+
+.qa-box-answer{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	width: fit-content;
+	max-width: 60%;
+	text-align: left;
+	margin-left: auto;
+}
+
+.qa-box-answer .qa-box-content{
+	background-color: #CAE6B2;
+	border-radius: 1.5em;
+	padding: 1em 1.2em;
+}
+
+.qa-box-budge{
+	font-family: "Montserrat", "sans-serif";
+	font-weight: 500;
+	padding: 0.7em 1em;
+	border-radius: 20em;
+	background-color: #CAE6B2;
+}
+
+.qa-box-question .qa-box-budge{
+	margin-right: 1em;
+}
+
+.qa-box-answer .qa-box-budge{
+	margin-left: 1em;
+}
+
+.text-serif{
+	font-family: "Noto Serif TC", "Playfair Display", "Times New Roman", Times, serif;
+}
+
+.rounded-pill{
+	border-radius: 20em;
+}
+
+.intro-title{
+	font-family: "Noto Serif TC", "Playfair Display", "Times New Roman", Times, serif;
+	font-weight: 900;
+	margin: 0.7em 0;
+}
+
+.intro-content{
+	font-family: "Noto Serif TC", "Playfair Display", "Times New Roman", Times, serif;
+	font-size: 1.25em;
+	font-weight: 600;
+	color: #000000;
+	line-height: 1.5em;
+}
+
+.intro-content img{
+	margin: 0.7em 0;
+}
